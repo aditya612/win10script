@@ -31,10 +31,10 @@ $tweaks = @(
 
 	### External Program Setup
 	"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
-	"InstallAdobe",
-	"Install7Zip",
-	"InstallNotepadplusplus",
-	"InstallMediaPlayerClassic",
+	# "InstallAdobe",
+	# "Install7Zip",
+	# "InstallNotepadplusplus",
+	# "InstallMediaPlayerClassic",
 
 	### Windows Apps
 	"DebloatAll",
@@ -70,8 +70,8 @@ $tweaks = @(
 	"DisableNetDevicesAutoInst",  # "EnableNetDevicesAutoInst",
 	"DisableCtrldFolderAccess",	# "EnableCtrldFolderAccess",
 	# "DisableFirewall",            # "EnableFirewall",
-	"DisableDefender",            # "EnableDefender",
-	"DisableDefenderCloud",       # "EnableDefenderCloud",
+	"EnableDefender",		# "DisableDefender",            
+	"EnableDefenderCloud",       # "DisableDefenderCloud",
 	"EnableF8BootMenu",             # "DisableF8BootMenu",
 	#"SetDEPOptOut",                 # "SetDEPOptIn",
 	# "EnableCIMemoryIntegrity",    # "DisableCIMemoryIntegrity",
@@ -161,7 +161,7 @@ $tweaks = @(
 	"InstallMediaPlayer", 		# "UninstallMediaPlayer",
 	"UninstallInternetExplorer",  # "InstallInternetExplorer",
 	"UninstallWorkFolders",       # "InstallWorkFolders",
-	"InstallLinuxSubsystem",      # "UninstallLinuxSubsystem",
+	# "InstallLinuxSubsystem",      # "UninstallLinuxSubsystem",
 	# "InstallHyperV",              # "UninstallHyperV",
 	"SetPhotoViewerAssociation",    # "UnsetPhotoViewerAssociation",
 	"AddPhotoViewerOpenWith",       # "RemovePhotoViewerOpenWith",
